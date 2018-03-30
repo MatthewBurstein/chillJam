@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon ./app.js",
-    "test": "nyc ./node_modules/.bin/mocha --reporter spec"
+    "test": "nyc ./node_modules/.bin/mocha --reporter spec",
+    "feature-test": "mocha test/features/indexSpec.js",
+    "integration-test": "mocha test/integration/APICallSpec.js"
   },
   "repository": {
     "type": "git",

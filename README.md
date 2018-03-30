@@ -21,9 +21,9 @@ $ npm install
 // unit tests //
 $ npm test
 // feature tests //
-$ mocha test/features/index.js
+$ npm run feature-test
 // Twitter api integration test //
-$ mocha test/integration/APICall.jss
+$ npm run integration-test
 ```
 
 ### Approach
