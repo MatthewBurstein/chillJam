@@ -1,3 +1,4 @@
 node_modules
 .app-env
 .nyc_output/
+coverage/
