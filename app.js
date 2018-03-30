@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 
-app.get('/', (req, res) => { res.render('index') });
+app.get('/', (req, res) => { res.render('index'); });
 
 app.post('/tweets', postTweetsHelper, twitterApiCalls, renderTweets);
 
