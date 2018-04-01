@@ -5,7 +5,7 @@ A javascript bot for entering twitter competitions, built in week 9 of the Maker
 - Express.js
 - Node.js
 - node-twitter
-- HTML/EJS
+- HTML/EJS/CSS
 
 
 Testing
