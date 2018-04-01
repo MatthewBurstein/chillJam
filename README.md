@@ -26,7 +26,11 @@ $ npm run feature-test
 $ npm run integration-test
 ```
 
-### Approach
+## Example of operation
+
+![chillJame Demo](https://i.imgur.com/OQf3Sil.gif)
+
+### Approach̨
 
 - Used Agile methodologies to manage the team.
   - We started with an MVP - a website which would return all competition tweets featuring a certain search term defined by the user.
