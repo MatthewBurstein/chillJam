@@ -26,6 +26,13 @@ $ npm run feature-test
 $ npm run integration-test
 ```
 
+*NB: the integration test and one feature test are dependent on the environment in which they are run having access to credentials for the account linked with chillJam. For this reason, these two tests will fail on another machine. See the screenshots below for demonstration of the tests passing.*
+
+![Feature Tests](https://imgur.com/nqqQAnt.jpeg)
+
+![Integration Test](https://imgur.com/zOUku5L.jpeg)
+
+
 ## Example of operation
 
 ![chillJame Demo](https://i.imgur.com/OQf3Sil.gif)
